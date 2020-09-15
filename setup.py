@@ -7,7 +7,7 @@ def readme():
         return f.read()
 
 setup(name='tsoncli',
-      version='0.1',
+      version='0.2',
       description='TSON Command Line Interface',
       long_description=readme(),
       scripts=['bin/tson-cli'],
