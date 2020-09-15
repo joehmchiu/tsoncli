@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+info	tson_cli/__init__.py	/^from .msg import info$/;"	i
+info	tson_cli/msg.py	/^def info():$/;"	f
+markdown	tson_cli/msg.py	/^from Markdown import markdown$/;"	i
+os	tson_cli/msg.py	/^import sys, os, time$/;"	i
+readme	setup.py	/^def readme():$/;"	f
+setup	setup.py	/^from setuptools import setup$/;"	i
+sys	tson_cli/msg.py	/^import sys, os, time$/;"	i
+time	tson_cli/msg.py	/^import sys, os, time$/;"	i
+tson_cli	test.py	/^import tson_cli$/;"	i
