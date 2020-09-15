@@ -1,7 +1,7 @@
 from setuptools import setup
 
 # python setup.py bdist_wheel
-# sudo rm -rf build/ dist/ tson_cli.egg-info/ /__pycache__/
+# sudo rm -rf build/ dist/ tsoncli.egg-info/ /__pycache__/
 def readme():
     with open('README.md') as f:
         return f.read()
@@ -18,11 +18,11 @@ setup(name='tsoncli',
         'Topic :: Text Processing :: Linguistic',
       ],
       keywords='TSON tson cli',
-      url='http://github.com/joehmchiu/tson-cli',
+      url='http://github.com/joehmchiu/tsoncli',
       author='Joe Chiu',
       author_email='joehmchiu@gmail.com',
       license='MIT',
-      packages=['tson_cli'],
+      packages=['tsoncli'],
       install_requires=[
           'markdown',
       ],
